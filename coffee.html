@@ -1,312 +1,331 @@
 <!doctype html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>CloudFee Hạnh Nhân Nướng</title>
-<link rel="stylesheet" href="./Css/coffe.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
-    <!-- Header -->
-    <div class="main">
-    <div class="header-info">
-        <div class="header-info-list">
-            <a href="#" class="header-map">
-            <i class="fa-solid fa-location-dot"></i>
-            <span> 141 Cửa hàng khắp cả nước </span>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CloudFee Hạnh Nhân Nướng</title>
+    <link rel="stylesheet" href="./Css/base.css">
+    <link rel="stylesheet" href="./Css/coffe.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <!-- Header -->
+        <div id="main">
+            <!-- Header -->
+            <div class="header-info">
+                <div class="header-info-list">
+                    <a href="#" class="header-map">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span> 141 Stores Nationwide </span>
+                    </a>
+                    <a href="#" class="header-phone">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>Order: 1800.6936</span>
+                    </a>
+                </div>
+
+                <div class="profile-container">
+                    <p></p>
+                    <div class="profile-container-list">
+                        <a href="./login.html" title="Log out" class="logOut">Log Out
+                            <i class="fa-solid fa-door-closed"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="icon-cart">
+                    <a href="./cart.html">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="header-nav">
+            <a href="./index.html" class="header-nav_logo" title="The Coffee House">
+                <img src="font/img/images.png" alt="logo">
             </a>
-            <a href="#" class="header-phone">
-            <i class="fa-solid fa-phone"></i>
-            <span>Đặt hàng: 1800.6936</span>
-            </a>
-        </div>
 
-        <div class="profile-container">
-            <p></p>
-        </div>
-
-        <div class="web-cart">
-            <a href="./cart.html">
-                <i class="fa-solid fa-cart-shopping"></i>
-            </a>
-        </div>
-    </div>
-
-    <div class="header-nav">
-    <a href="index.html" class="header-nav_logo">
-        <img src="font/img/images.png" alt="logo">
-    </a>
-
-        <ul class="header-nav_list">
-        <li><a href="#">Cà phê</a></li>
-        <li><a href="#">Trà</a></li>
-        <li class="header-nav_menu">
-            <a href="#">Menu</a>
-            <i class="header-nav_icon fa-solid fa-v"></i>
-            <ul class="header-nav_menu-list">
-            <li>
-                <a href="#">Tất Cả</a>
-            </li>
-            <li>
-                <a href="#">Xuân Lên Đi</a>
-                <a href="#">Xuân Lên Đi</a>
-            </li>
-            <li>
-                <a href="#">Cà Phê</a>
-                <a href="#">Cà Phê Highlight</a>
-                <a href="#">Cà Phê Việt Nam</a>
-                <a href="#">Cà Phê Máy</a>
-                <a href="#">Cold Brew</a>
-            </li>
-            <li>
-                <a href="#">Trà</a>
-                <a href="#">Trà trái cây</a>
-                <a href="#">Trà sữa Macchiato</a>
-            </li>
-            <li>
-                <a href="#">Cloud</a>
-                <a href="#">CloudFee</a>
-                <a href="#">CloudTea Mochi</a>
-            </li>
-            <li>
-                <a href="#">Hi-Tea Healthy</a>
-                <a href="#">Hi-Tea Trà</a>
-                <a href="#">Hi-Tea Đá Tuyết</a>
-            </li>
-            <li>
-                <a href="#">Trà Xanh - Chocolate</a>
-                <a href="#">Trà Xanh Tây Bắc<a>
-                <a href="#">Chocolate</a>
-            </li>
-            <li>
-                <a href="#">Thức uống đá xay</a>
-                <a href="#">Đá xay Frosty</a>
-            </li>
-            <li>
-                <a href="#">Bánh & Snack</a>
-                <a href="#">Bánh mặn</a>
-                <a href="#">Bánh ngọt</a>
-                <a href="#">Snack</a>
-                <a href="#">Bánh Pastry</a>
-            </li>
-            <li>
-                <a href="#">Thưởng Thức Tại Nhà</a>
-                <a href="#">Cà phê tại nhà</a>
-                <a href="#">Cà Phê Hạt Rang</a>
-                <a href="#">Trà tại nhà</a>
-                <a href="#">Chai Fresh Không Đá</a>
-            </li>
-            </ul>
-        </li>
-        <li class="header-nav_house">
-            <a href="#">Chuyện nhà</a>
-            <i class="header-nav_icon fa-solid fa-v"></i>
-            <ul class="header-nav_house-list">
-            <li>
-                <a href="#">Coffeeholic</a>
-                <a href="#">#chuyencaphe</a>
-                <a href="#">#phacaphe</a>
-            </li>
-            <li>
-                <a href="#">Teaholic</a>
-                <a href="#">#phatra</a>
-                <a href="#">#cauchuyenvetra</a>
-            </li>
-            <li>
-                <a href="#">Blog</a>
-                <a href="#">#inthemood</a>
-                <a href="#">#Review</a>
-                <a href="#">#HumanofTCH</a>
-            </li>
-            </ul>
-        </li>
-        <li><a href="#">Cảm hứng CloudFee</a></li>
-        <li><a href="#">Cửa hàng</a></li>
-        <li><a href="#">Tuyển dụng</a></li>
-        </ul>
-    </div>
-
-    <div class="content">
-        <div class="content-product">
-            <div class="content-product-tittle">
-                <li>
-                    <a href="#">Menu</a>
+                <ul class="header-nav_list">
+                <li><a href="./nav_coffee.html"title ="Coffee">Coffee</a></li>
+                <li><a href="#" title ="Tea">Tea</a></li>
+                <li class="header-nav_menu">
+                    <a href="./menu_all.html" title ="Menu">Menu</a>
+                    <i class="header-nav_icon fa-solid fa-v"></i>
+                    <ul class="header-nav_menu-list">
+                    <li>
+                        <a href="./menu_all.html" title ="All">All</a>
+                    </li>
+                    <li>
+                        <a href="#" title ="Coffee">Coffee</a>
+                        <a href="#" title ="Highlight Coffee">Highlight Coffee</a>
+                        <a href="#" title ="Vietnamese Coffee">Vietnamese Coffee</a>
+                        <a href="#" title ="Coffee Machine">Coffee Machine</a>
+                        <a href="#" title ="Cold Brew">Cold Brew</a>
+                    </li>
+                    <li>
+                        <a href="#" title ="Tea">Tea</a>
+                        <a href="#" title ="Fruit Tea">Fruit Tea</a>
+                        <a href="#" title ="Macchiato Milk Tea">Macchiato Milk Tea</a>
+                    </li>
+                    <li>
+                        <a href="#" title ="Cloud">Cloud</a>
+                        <a href="#" title ="CloudFee">CloudFee</a>
+                        <a href="#" title ="CloudTea Mochi">CloudTea Mochi</a>
+                    </li>
+                    <li>
+                        <a href="#" title ="Hi-Tea Healthy">Hi-Tea Healthy</a>
+                        <a href="#" title ="Hi-Tea Tea">Hi-Tea Tea</a>
+                        <a href="#" title ="Snow Ice Hi-Tea">Snow Ice Hi-Tea</a>
+                    </li>
+                    <li>
+                        <a href="#" title ="Green Tea - Chocolate">Green Tea - Chocolate</a>
+                        <a href="#" title ="Northwest Green Tea">Northwest Green Tea<a>
+                        <a href="#" title ="Chocolate">Chocolate</a>
+                    </li>
+                    <li>
+                        <a href="#" title ="Ice Blended Drinks">Iced Blended Drinks</a>
+                        <a href="#" title ="Frosty Crushed Ice">Frosty Crushed Ice</a>
+                    </li>
+                    <li>
+                        <a href="#" title ="Cake & Snack">Cake & Snack</a>
+                        <a href="#" title ="Savory Cakes">Savory Cakes</a>
+                        <a href="#" title ="Cake">Cake</a>
+                        <a href="#" title ="Snack">Snack</a>
+                        <a href="#" title ="Pastry Cake">Pastry Cake</a>
+                    </li>
+                    <li>
+                        <a href="#" title ="Enjoy At Home">Enjoy At Home</a>
+                        <a href="#" title ="Coffee at home">Coffee at home</a>
+                        <a href="#" title ="Roasted Coffee Beans">Roasted Coffee Beans</a>
+                        <a href="#" title ="Tea at home">Tea at home</a>
+                        <a href="#" title ="Fresh Bottle Without Ice">Fresh Bottle Without Ice</a>
+                    </li>
+                    </ul>
                 </li>
-                <li>
-                    <a href="#">Sản phẩm hot trang chủ</a>
+                <li class="header-nav_house">
+                    <a href="#" title ="Home stories">Home stories</a>
+                    <i class="header-nav_icon fa-solid fa-v"></i>
+                    <ul class="header-nav_house-list">
+                    <li>
+                        <a href="#" title ="Coffeeholic">Coffeeholic</a>
+                        <a href="#" title ="#chuyencaphe">#chuyencaphe</a>
+                        <a href="#" title ="#phacaphe">#phacaphe</a>
+                    </li>
+                    <li>
+                        <a href="#" title ="Teaholic">Teaholic</a>
+                        <a href="#" title ="#phatra">#phatra</a>
+                        <a href="#" title ="#cauchuyenvetra">#cauchuyenvetra</a>
+                    </li>
+                    <li>
+                        <a href="#" title ="Blog">Blog</a>
+                        <a href="#" title ="#inthemood">#inthemood</a>
+                        <a href="#" title ="#Review">#Review</a>
+                        <a href="#" title ="#HumanofTCH">#HumanofTCH</a>
+                    </li>
+                    </ul>
                 </li>
-                <li id="coffeeListItem"></li>
-            </div>
-        </div>
-
-        <div class="content-info">
-            <div class="content-info_img">
-                <img id="detailImage" src="" alt="">
-                <a href="#" class="thumbnail">
-                    <img class="thumbnail-image" src="" alt="">
-                </a>
+                <li><a href="#" title ="CloudFee Inspiration">CloudFee Inspiration</a></li>
+                <li><a href="#" title ="Store">Store</a></li>
+                <li><a href="#" title ="Recruitment">Recruitment</a></li>
+                </ul>
             </div>
 
-            <div class="content-info_coffe">
-                <div class="content-info_title">
-                    <h3 id="coffeeName"></h3>
-                    <span id="totalPrice"></span>
-                </div>
-
-                <div class="content-info_Size">
-                    <h3>Chọn size (bắt buộc)</h3>
-                    <div class="content-info_listSize">
-                        <div class="content-info_size-small" onclick="selectSize(this)" data-price="0.000 đ">
-                            <svg viewBox="0 0 13 16" xmlns="http://www.w3.org/2000/svg"  class="icon" height="20px"> <path class="shape " d="M11.6511 1.68763H10.3529V0.421907C10.3529 0.194726 10.1582 0 9.93104 0H2.17444C1.94726 0 1.75254 0.194726 1.75254 0.421907V1.65517H0.454361C0.194726 1.68763 0 1.88235 0 2.10953V4.18661C0 4.41379 0.194726 4.60852 0.421907 4.60852H1.33063L1.72008 8.8925L1.78499 9.76876L2.30426 15.6105C2.33671 15.8377 2.49899 16 2.72617 16H9.28195C9.50913 16 9.70385 15.8377 9.70385 15.6105L10.2231 9.76876L10.288 8.8925L10.6775 4.60852H11.5862C11.8134 4.60852 12.0081 4.41379 12.0081 4.18661V2.10953C12.073 1.88235 11.8783 1.68763 11.6511 1.68763ZM2.56389 8.40568H3.50507C3.47262 8.56795 3.47262 8.73022 3.47262 8.8925C3.47262 9.02231 3.47262 9.15213 3.50507 9.28195H2.66126L2.6288 8.92495L2.56389 8.40568ZM9.47667 8.92495L9.44422 9.28195H8.56795C8.60041 9.15213 8.60041 9.02231 8.60041 8.8925C8.60041 8.73022 8.56795 8.56795 8.56795 8.40568H9.50913L9.47667 8.92495ZM7.72414 8.8925C7.72414 9.83367 6.97769 10.5801 6.03651 10.5801C5.09534 10.5801 4.34888 9.83367 4.34888 8.8925C4.34888 7.95132 5.09534 7.20487 6.03651 7.20487C6.97769 7.20487 7.72414 7.95132 7.72414 8.8925ZM8.92495 15.1562H3.18053L2.72617 10.1582H3.82961C4.28398 10.9371 5.09534 11.4564 6.03651 11.4564C6.97769 11.4564 7.8215 10.9371 8.24341 10.1582H9.34686L8.92495 15.1562ZM9.60649 7.52941H8.21095C7.75659 6.81542 6.94523 6.3286 6.03651 6.3286C5.12779 6.3286 4.31643 6.81542 3.86207 7.52941H2.49899L2.23935 4.60852H9.86613L9.60649 7.52941ZM11.1968 3.73225H10.3205H1.75254H0.876268V2.56389H2.17444H2.2069H2.23935H8.27586C8.50304 2.56389 8.69777 2.36917 8.69777 2.14199C8.69777 1.91481 8.50304 1.72008 8.27586 1.72008H2.6288V0.876268H9.47667V2.10953C9.47667 2.33671 9.6714 2.53144 9.89858 2.53144H11.1968V3.73225Z"></path> </svg>
-                            Nhỏ + 0 đ
-                        </div>
-                        <div class="content-info_size-fit"onclick="selectSize(this)" data-price="6.000 đ">
-                            <svg viewBox="0 0 13 16" xmlns="http://www.w3.org/2000/svg"  class="icon" height="30px"> <path class="shape " d="M11.6511 1.68763H10.3529V0.421907C10.3529 0.194726 10.1582 0 9.93104 0H2.17444C1.94726 0 1.75254 0.194726 1.75254 0.421907V1.65517H0.454361C0.194726 1.68763 0 1.88235 0 2.10953V4.18661C0 4.41379 0.194726 4.60852 0.421907 4.60852H1.33063L1.72008 8.8925L1.78499 9.76876L2.30426 15.6105C2.33671 15.8377 2.49899 16 2.72617 16H9.28195C9.50913 16 9.70385 15.8377 9.70385 15.6105L10.2231 9.76876L10.288 8.8925L10.6775 4.60852H11.5862C11.8134 4.60852 12.0081 4.41379 12.0081 4.18661V2.10953C12.073 1.88235 11.8783 1.68763 11.6511 1.68763ZM2.56389 8.40568H3.50507C3.47262 8.56795 3.47262 8.73022 3.47262 8.8925C3.47262 9.02231 3.47262 9.15213 3.50507 9.28195H2.66126L2.6288 8.92495L2.56389 8.40568ZM9.47667 8.92495L9.44422 9.28195H8.56795C8.60041 9.15213 8.60041 9.02231 8.60041 8.8925C8.60041 8.73022 8.56795 8.56795 8.56795 8.40568H9.50913L9.47667 8.92495ZM7.72414 8.8925C7.72414 9.83367 6.97769 10.5801 6.03651 10.5801C5.09534 10.5801 4.34888 9.83367 4.34888 8.8925C4.34888 7.95132 5.09534 7.20487 6.03651 7.20487C6.97769 7.20487 7.72414 7.95132 7.72414 8.8925ZM8.92495 15.1562H3.18053L2.72617 10.1582H3.82961C4.28398 10.9371 5.09534 11.4564 6.03651 11.4564C6.97769 11.4564 7.8215 10.9371 8.24341 10.1582H9.34686L8.92495 15.1562ZM9.60649 7.52941H8.21095C7.75659 6.81542 6.94523 6.3286 6.03651 6.3286C5.12779 6.3286 4.31643 6.81542 3.86207 7.52941H2.49899L2.23935 4.60852H9.86613L9.60649 7.52941ZM11.1968 3.73225H10.3205H1.75254H0.876268V2.56389H2.17444H2.2069H2.23935H8.27586C8.50304 2.56389 8.69777 2.36917 8.69777 2.14199C8.69777 1.91481 8.50304 1.72008 8.27586 1.72008H2.6288V0.876268H9.47667V2.10953C9.47667 2.33671 9.6714 2.53144 9.89858 2.53144H11.1968V3.73225Z"></path> </svg>
-                            Vừa + 6.000 đ
-                        </div>
-                        <div class="content-info_size-big"onclick="selectSize(this)" data-price="10.000 đ">
-                            <svg viewBox="0 0 13 16" xmlns="http://www.w3.org/2000/svg" class="icon" height="40px"> <path class="shape " d="M11.6511 1.68763H10.3529V0.421907C10.3529 0.194726 10.1582 0 9.93104 0H2.17444C1.94726 0 1.75254 0.194726 1.75254 0.421907V1.65517H0.454361C0.194726 1.68763 0 1.88235 0 2.10953V4.18661C0 4.41379 0.194726 4.60852 0.421907 4.60852H1.33063L1.72008 8.8925L1.78499 9.76876L2.30426 15.6105C2.33671 15.8377 2.49899 16 2.72617 16H9.28195C9.50913 16 9.70385 15.8377 9.70385 15.6105L10.2231 9.76876L10.288 8.8925L10.6775 4.60852H11.5862C11.8134 4.60852 12.0081 4.41379 12.0081 4.18661V2.10953C12.073 1.88235 11.8783 1.68763 11.6511 1.68763ZM2.56389 8.40568H3.50507C3.47262 8.56795 3.47262 8.73022 3.47262 8.8925C3.47262 9.02231 3.47262 9.15213 3.50507 9.28195H2.66126L2.6288 8.92495L2.56389 8.40568ZM9.47667 8.92495L9.44422 9.28195H8.56795C8.60041 9.15213 8.60041 9.02231 8.60041 8.8925C8.60041 8.73022 8.56795 8.56795 8.56795 8.40568H9.50913L9.47667 8.92495ZM7.72414 8.8925C7.72414 9.83367 6.97769 10.5801 6.03651 10.5801C5.09534 10.5801 4.34888 9.83367 4.34888 8.8925C4.34888 7.95132 5.09534 7.20487 6.03651 7.20487C6.97769 7.20487 7.72414 7.95132 7.72414 8.8925ZM8.92495 15.1562H3.18053L2.72617 10.1582H3.82961C4.28398 10.9371 5.09534 11.4564 6.03651 11.4564C6.97769 11.4564 7.8215 10.9371 8.24341 10.1582H9.34686L8.92495 15.1562ZM9.60649 7.52941H8.21095C7.75659 6.81542 6.94523 6.3286 6.03651 6.3286C5.12779 6.3286 4.31643 6.81542 3.86207 7.52941H2.49899L2.23935 4.60852H9.86613L9.60649 7.52941ZM11.1968 3.73225H10.3205H1.75254H0.876268V2.56389H2.17444H2.2069H2.23935H8.27586C8.50304 2.56389 8.69777 2.36917 8.69777 2.14199C8.69777 1.91481 8.50304 1.72008 8.27586 1.72008H2.6288V0.876268H9.47667V2.10953C9.47667 2.33671 9.6714 2.53144 9.89858 2.53144H11.1968V3.73225Z"></path> </svg>
-                            Lớn + 10.000 đ
-                        </div>
+            <div id="content">
+                <div class="content-product">
+                    <div class="content-product-tittle">
+                        <li> 
+                            <a href="#">Menu</a>
+                        </li>
+                        <li>
+                            <a href="/#listCoffee">Hot products home page</a>
+                        </li>
+                        <li id="coffeeListItem"></li>
                     </div>
                 </div>
 
-                <div class="content-info_toping">
-                    <h3>Topping</h3>
-                    <div class="content-list-toping">
-                        <div class="content-toping" onclick="selectSize(this)" data-price="10.000 đ">
-                            Shot Espresso + 10.000 đ
+                <div class="content-info">
+                    <div class="content-info_img">
+                        <img id="detailImage" src="" alt="">
+                        <a href="#" class="thumbnail">
+                            <img class="thumbnail-image" src="" alt="">
+                        </a>
+                    </div>
+
+                    <div class="content-info_coffe">
+                        <div class="content-info_title">
+                            <h3 id="coffeeName"></h3>
+                            <span id="totalPrice"></span>
                         </div>
-                        <div class="content-toping" onclick="selectSize(this)" data-price="10.000 đ">
-                            Trân châu trắng + 10.000 đ
+
+                        <div class="content-info_Size">
+                            <h3>Select size (required)</h3>
+                            <div class="content-info_listSize">
+                                <div class="content-info_size-small" onclick="selectSize(this)" data-price="0.000 VND">
+                                    <svg viewBox="0 0 13 16" xmlns="http://www.w3.org/2000/svg"  class="icon" height="20px"> <path class="shape " d="M11.6511 1.68763H10.3529V0.421907C10.3529 0.194726 10.1582 0 9.93104 0H2.17444C1.94726 0 1.75254 0.194726 1.75254 0.421907V1.65517H0.454361C0.194726 1.68763 0 1.88235 0 2.10953V4.18661C0 4.41379 0.194726 4.60852 0.421907 4.60852H1.33063L1.72008 8.8925L1.78499 9.76876L2.30426 15.6105C2.33671 15.8377 2.49899 16 2.72617 16H9.28195C9.50913 16 9.70385 15.8377 9.70385 15.6105L10.2231 9.76876L10.288 8.8925L10.6775 4.60852H11.5862C11.8134 4.60852 12.0081 4.41379 12.0081 4.18661V2.10953C12.073 1.88235 11.8783 1.68763 11.6511 1.68763ZM2.56389 8.40568H3.50507C3.47262 8.56795 3.47262 8.73022 3.47262 8.8925C3.47262 9.02231 3.47262 9.15213 3.50507 9.28195H2.66126L2.6288 8.92495L2.56389 8.40568ZM9.47667 8.92495L9.44422 9.28195H8.56795C8.60041 9.15213 8.60041 9.02231 8.60041 8.8925C8.60041 8.73022 8.56795 8.56795 8.56795 8.40568H9.50913L9.47667 8.92495ZM7.72414 8.8925C7.72414 9.83367 6.97769 10.5801 6.03651 10.5801C5.09534 10.5801 4.34888 9.83367 4.34888 8.8925C4.34888 7.95132 5.09534 7.20487 6.03651 7.20487C6.97769 7.20487 7.72414 7.95132 7.72414 8.8925ZM8.92495 15.1562H3.18053L2.72617 10.1582H3.82961C4.28398 10.9371 5.09534 11.4564 6.03651 11.4564C6.97769 11.4564 7.8215 10.9371 8.24341 10.1582H9.34686L8.92495 15.1562ZM9.60649 7.52941H8.21095C7.75659 6.81542 6.94523 6.3286 6.03651 6.3286C5.12779 6.3286 4.31643 6.81542 3.86207 7.52941H2.49899L2.23935 4.60852H9.86613L9.60649 7.52941ZM11.1968 3.73225H10.3205H1.75254H0.876268V2.56389H2.17444H2.2069H2.23935H8.27586C8.50304 2.56389 8.69777 2.36917 8.69777 2.14199C8.69777 1.91481 8.50304 1.72008 8.27586 1.72008H2.6288V0.876268H9.47667V2.10953C9.47667 2.33671 9.6714 2.53144 9.89858 2.53144H11.1968V3.73225Z"></path> </svg>
+                                    Small (0 VND)
+                                </div>
+                                <div class="content-info_size-fit"onclick="selectSize(this)" data-price="6.000 VND">
+                                    <svg viewBox="0 0 13 16" xmlns="http://www.w3.org/2000/svg"  class="icon" height="30px"> <path class="shape " d="M11.6511 1.68763H10.3529V0.421907C10.3529 0.194726 10.1582 0 9.93104 0H2.17444C1.94726 0 1.75254 0.194726 1.75254 0.421907V1.65517H0.454361C0.194726 1.68763 0 1.88235 0 2.10953V4.18661C0 4.41379 0.194726 4.60852 0.421907 4.60852H1.33063L1.72008 8.8925L1.78499 9.76876L2.30426 15.6105C2.33671 15.8377 2.49899 16 2.72617 16H9.28195C9.50913 16 9.70385 15.8377 9.70385 15.6105L10.2231 9.76876L10.288 8.8925L10.6775 4.60852H11.5862C11.8134 4.60852 12.0081 4.41379 12.0081 4.18661V2.10953C12.073 1.88235 11.8783 1.68763 11.6511 1.68763ZM2.56389 8.40568H3.50507C3.47262 8.56795 3.47262 8.73022 3.47262 8.8925C3.47262 9.02231 3.47262 9.15213 3.50507 9.28195H2.66126L2.6288 8.92495L2.56389 8.40568ZM9.47667 8.92495L9.44422 9.28195H8.56795C8.60041 9.15213 8.60041 9.02231 8.60041 8.8925C8.60041 8.73022 8.56795 8.56795 8.56795 8.40568H9.50913L9.47667 8.92495ZM7.72414 8.8925C7.72414 9.83367 6.97769 10.5801 6.03651 10.5801C5.09534 10.5801 4.34888 9.83367 4.34888 8.8925C4.34888 7.95132 5.09534 7.20487 6.03651 7.20487C6.97769 7.20487 7.72414 7.95132 7.72414 8.8925ZM8.92495 15.1562H3.18053L2.72617 10.1582H3.82961C4.28398 10.9371 5.09534 11.4564 6.03651 11.4564C6.97769 11.4564 7.8215 10.9371 8.24341 10.1582H9.34686L8.92495 15.1562ZM9.60649 7.52941H8.21095C7.75659 6.81542 6.94523 6.3286 6.03651 6.3286C5.12779 6.3286 4.31643 6.81542 3.86207 7.52941H2.49899L2.23935 4.60852H9.86613L9.60649 7.52941ZM11.1968 3.73225H10.3205H1.75254H0.876268V2.56389H2.17444H2.2069H2.23935H8.27586C8.50304 2.56389 8.69777 2.36917 8.69777 2.14199C8.69777 1.91481 8.50304 1.72008 8.27586 1.72008H2.6288V0.876268H9.47667V2.10953C9.47667 2.33671 9.6714 2.53144 9.89858 2.53144H11.1968V3.73225Z"></path> </svg>
+                                    Medium (6.000 VND)
+                                </div>
+                                <div class="content-info_size-big"onclick="selectSize(this)" data-price="10.000 VND">
+                                    <svg viewBox="0 0 13 16" xmlns="http://www.w3.org/2000/svg" class="icon" height="40px"> <path class="shape " d="M11.6511 1.68763H10.3529V0.421907C10.3529 0.194726 10.1582 0 9.93104 0H2.17444C1.94726 0 1.75254 0.194726 1.75254 0.421907V1.65517H0.454361C0.194726 1.68763 0 1.88235 0 2.10953V4.18661C0 4.41379 0.194726 4.60852 0.421907 4.60852H1.33063L1.72008 8.8925L1.78499 9.76876L2.30426 15.6105C2.33671 15.8377 2.49899 16 2.72617 16H9.28195C9.50913 16 9.70385 15.8377 9.70385 15.6105L10.2231 9.76876L10.288 8.8925L10.6775 4.60852H11.5862C11.8134 4.60852 12.0081 4.41379 12.0081 4.18661V2.10953C12.073 1.88235 11.8783 1.68763 11.6511 1.68763ZM2.56389 8.40568H3.50507C3.47262 8.56795 3.47262 8.73022 3.47262 8.8925C3.47262 9.02231 3.47262 9.15213 3.50507 9.28195H2.66126L2.6288 8.92495L2.56389 8.40568ZM9.47667 8.92495L9.44422 9.28195H8.56795C8.60041 9.15213 8.60041 9.02231 8.60041 8.8925C8.60041 8.73022 8.56795 8.56795 8.56795 8.40568H9.50913L9.47667 8.92495ZM7.72414 8.8925C7.72414 9.83367 6.97769 10.5801 6.03651 10.5801C5.09534 10.5801 4.34888 9.83367 4.34888 8.8925C4.34888 7.95132 5.09534 7.20487 6.03651 7.20487C6.97769 7.20487 7.72414 7.95132 7.72414 8.8925ZM8.92495 15.1562H3.18053L2.72617 10.1582H3.82961C4.28398 10.9371 5.09534 11.4564 6.03651 11.4564C6.97769 11.4564 7.8215 10.9371 8.24341 10.1582H9.34686L8.92495 15.1562ZM9.60649 7.52941H8.21095C7.75659 6.81542 6.94523 6.3286 6.03651 6.3286C5.12779 6.3286 4.31643 6.81542 3.86207 7.52941H2.49899L2.23935 4.60852H9.86613L9.60649 7.52941ZM11.1968 3.73225H10.3205H1.75254H0.876268V2.56389H2.17444H2.2069H2.23935H8.27586C8.50304 2.56389 8.69777 2.36917 8.69777 2.14199C8.69777 1.91481 8.50304 1.72008 8.27586 1.72008H2.6288V0.876268H9.47667V2.10953C9.47667 2.33671 9.6714 2.53144 9.89858 2.53144H11.1968V3.73225Z"></path> </svg>
+                                    Large (10.000 VND)
+                                </div>
+                            </div>
                         </div>
-                        <div class="content-toping " onclick="selectSize(this)" data-price="10.000 đ">
-                            Sốt Caramel + 10.000 đ
+
+                        <div class="content-info_toping">
+                            <h3>Topping</h3>
+                            <div class="content-list-toping">
+                                <div class="content-toping" onclick="addTopping(this)" data-price="10.000 VND">
+                                    Shot Espresso (10.000 VND)
+                                </div>
+                                <div class="content-toping" onclick="addTopping(this)" data-price="10.000 VND">
+                                    White pearl (10.000 VND)
+                                </div>
+                                <div class="content-toping " onclick="addTopping(this)" data-price="10.000 VND">
+                                    Caramel sauce  (10.000 VND)
+                                </div>
+                            </div>
                         </div>
+
+                        <button class="content-info-order">
+                            <svg width="21" height="21" margin-right="5px" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg"><path d="M14 0C14.5523 0 15 0.447715 15 1V1.999L20 2V8L17.98 7.999L20.7467 15.5953C20.9105 16.032 21 16.5051 21 16.999C21 19.2082 19.2091 20.999 17 20.999C15.1368 20.999 13.5711 19.7251 13.1265 18.0008L8.87379 18.0008C8.42948 19.7256 6.86357 21 5 21C3.05513 21 1.43445 19.612 1.07453 17.7725C0.435576 17.439 0 16.7704 0 16V3C0 2.44772 0.447715 2 1 2H8C8.55228 2 9 2.44772 9 3V11C9 11.5128 9.38604 11.9355 9.88338 11.9933L10 12H12C12.5128 12 12.9355 11.614 12.9933 11.1166L13 11V2H10V0H14ZM5 15C3.89543 15 3 15.8954 3 17C3 18.1046 3.89543 19 5 19C6.10457 19 7 18.1046 7 17C7 15.8954 6.10457 15 5 15ZM17 14.999C15.8954 14.999 15 15.8944 15 16.999C15 18.1036 15.8954 18.999 17 18.999C18.1046 18.999 19 18.1036 19 16.999C19 15.8944 18.1046 14.999 17 14.999ZM15.852 7.999H15V11C15 12.6569 13.6569 14 12 14H10C8.69412 14 7.58312 13.1656 7.17102 12.0009L1.99994 12V14.3542C2.73289 13.5238 3.80528 13 5 13C6.86393 13 8.43009 14.2749 8.87405 16.0003H13.1257C13.5693 14.2744 15.1357 12.999 17 12.999C17.2373 12.999 17.4697 13.0197 17.6957 13.0593L15.852 7.999ZM7 7H2V10H7V7ZM18 4H15V6H18V4ZM7 4H2V5H7V4Z" fill="white" fill-opacity="0.6"></path></svg>
+                            <a href="#">Order delivery</a>
+                        </button>
+
+                        <button id="addToCartButton">
+                            <i class="content-buy-icon fa-solid fa-cart-shopping"></i>
+                            <span>Add to cart</span>
+                        </button>
                     </div>
                 </div>
 
-                <button class="content-info-order">
-                    <svg width="21" height="21" margin-right="5px" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg"><path d="M14 0C14.5523 0 15 0.447715 15 1V1.999L20 2V8L17.98 7.999L20.7467 15.5953C20.9105 16.032 21 16.5051 21 16.999C21 19.2082 19.2091 20.999 17 20.999C15.1368 20.999 13.5711 19.7251 13.1265 18.0008L8.87379 18.0008C8.42948 19.7256 6.86357 21 5 21C3.05513 21 1.43445 19.612 1.07453 17.7725C0.435576 17.439 0 16.7704 0 16V3C0 2.44772 0.447715 2 1 2H8C8.55228 2 9 2.44772 9 3V11C9 11.5128 9.38604 11.9355 9.88338 11.9933L10 12H12C12.5128 12 12.9355 11.614 12.9933 11.1166L13 11V2H10V0H14ZM5 15C3.89543 15 3 15.8954 3 17C3 18.1046 3.89543 19 5 19C6.10457 19 7 18.1046 7 17C7 15.8954 6.10457 15 5 15ZM17 14.999C15.8954 14.999 15 15.8944 15 16.999C15 18.1036 15.8954 18.999 17 18.999C18.1046 18.999 19 18.1036 19 16.999C19 15.8944 18.1046 14.999 17 14.999ZM15.852 7.999H15V11C15 12.6569 13.6569 14 12 14H10C8.69412 14 7.58312 13.1656 7.17102 12.0009L1.99994 12V14.3542C2.73289 13.5238 3.80528 13 5 13C6.86393 13 8.43009 14.2749 8.87405 16.0003H13.1257C13.5693 14.2744 15.1357 12.999 17 12.999C17.2373 12.999 17.4697 13.0197 17.6957 13.0593L15.852 7.999ZM7 7H2V10H7V7ZM18 4H15V6H18V4ZM7 4H2V5H7V4Z" fill="white" fill-opacity="0.6"></path></svg>
-                    <a href="#">Đặt giao tận nơi</a>
-                </button>
-
-                <button id="addToCartButton">
-                    <i class="content-buy-icon fa-solid fa-cart-shopping"></i>
-                    <span>Thêm vào giỏ hàng</span>
-                </button>
-            </div>
-        </div>
-
-        <div class="content-relate">
-            <div class="colum"></div>
-            <div class="content-describe">
-                <h3>Mô tả sản phẩm</h3>
-                <p>Vị đắng nhẹ từ cà phê phin truyền thống kết hợp Espresso Ý, lẫn chút ngọt ngào của kem sữa và lớp foam trứng cacao, nhấn thêm hạnh nhân nướng thơm bùi, kèm topping thạch cà phê dai giòn mê ly. Tất cả cùng quyện hoà trong một thức uống làm vị giác "thức giấc", thơm ngon hết nấc.</p>
-            </div>
-            <div class="colum"></div>
-
-            <div class="content-relate-coffee">
-                <h3>Sản phẩm liên quan</h3>
-                <div class="content-list_coffee">
-
-                    <div class="content-coffee" title="CloudFee Caramel">
-                        <a href="#">
-                        <img src="./font/img/1697442235_cloudfee-hanh-nhan-nuong_8282f6c2cf4d49bba2dfbe70cb7dbede_large.jpg"   alt="CloudFee Hạnh Nhân Nướng">
-                        <h4 class="content-coffee_title">CloudFee Caramel</h2>
-                        </a>
-                        <span>49.000 đ</span>
+                <div class="content-relate">
+                    <div class="colum"></div>
+                    <div class="content-describe">
+                        <h3>Product description</h3>
+                        <p id="describeCoffee"></p>
                     </div>
+                    <div class="colum"></div>
 
-                    <div class="content-coffee" title="Cold Brew Sữa Tươi">
-                        <a href="#">
-                        <img src="./font/img/cold-brew-sua-tuoi_379576_990956a1473e4ded82c8f76b877b7d15_large.jpg"  alt="CloudFee Hạnh Nhân Nướng">
-                        <h4 class="content-coffee_title">Cold Brew Sữa Tươi</h4>
-                        </a>
-                        <span>39.000 đ</span>
-                    </div>
+                    <div class="content-relate-coffee">
+                        <h3>Related products</h3>
+                        <div class="content-relate-list_coffee">
 
-                    <div class="content-coffee" title="Cà Phê Đen Đá">
-                        <a href="#">
-                        <img src="./font/img/1639377797_ca-phe-den-da_6f4766ec0f8b4e929a8d916ae3c13254_large.jpg"  alt="CloudFee Hạnh Nhân Nướng">
-                        <h4 class="content-coffee_title">Cà Phê Đen Đá</h4>
-                        </a>
-                        <span>29.000 đ</span>
-                    </div>
+                            <div class="content-relate-coffee" title="CloudFee Caramel">
+                                <a href="#">
+                                <img src="./font/img/1697442235_cloudfee-hanh-nhan-nuong_8282f6c2cf4d49bba2dfbe70cb7dbede_large.jpg"   alt="CloudFee Caramel">
+                                <h4 class="content-relate-coffee_title">CloudFee Caramel</h2>
+                                </a>
+                                <span>49.000 VND</span>
+                            </div>
 
-                    <div class="content-coffee" title="Bạc Sỉu">
-                        <a href="#">
-                        <img src="./font/img/1639377904_bac-siu_525b9fa5055b41f183088c8e479a9472_large.jpg"  alt="CloudFee Hạnh Nhân Nướng">
-                        <h4 class="content-coffee_title">Bạc Sỉu</h4>
-                        </a>
-                        <span>29.000 đ</span>
-                    </div>
+                            <div class="content-relate-coffee" title="Cold Brew Fresh Milk">
+                                <a href="#">
+                                <img src="./font/img/cold-brew-sua-tuoi_379576_990956a1473e4ded82c8f76b877b7d15_large.jpg"  alt="Cold Brew Fresh Milk">
+                                <h4 class="content-relate-coffee_title">Cold Brew Fresh Milk</h4>
+                                </a>
+                                <span>39.000 VND</span>
+                            </div>
 
-                    <div class="content-coffee" title="Cà Phê Sữa Đá">
-                        <a href="#">
-                        <img src="./font/img/1669736835_ca-phe-sua-da_e6168b6a38ec45d2b4854d2708b5d542_large.png"  alt="CloudFee Hạnh Nhân Nướng">
-                        <h4 class="content-coffee_title">Cà Phê Sữa Đá</h4>
-                        </a>
-                        <span>29.000 đ</span>
+                            <div class="content-relate-coffee" title="Iced Black Coffee">
+                                <a href="#">
+                                <img src="./font/img/1639377797_ca-phe-den-da_6f4766ec0f8b4e929a8d916ae3c13254_large.jpg"  alt="Iced Black Coffee">
+                                <h4 class="content-relate-coffee_title">Iced Black Coffee</h4>
+                                </a>
+                                <span>29.000 VND</span>
+                            </div>
+
+                            <div class="content-relate-coffee" title="Bac Siu">
+                                <a href="#">
+                                <img src="./font/img/1639377904_bac-siu_525b9fa5055b41f183088c8e479a9472_large.jpg" alt="Bac Siu">
+                                <h4 class="content-relate-coffee_title">Bac Siu</h4>
+                                </a>
+                                <span>29.000 VND</span>
+                            </div>
+
+                            <div class="content-relate-coffee" title="Iced Milk Coffee">
+                                <a href="#">
+                                <img src="./font/img/1669736835_ca-phe-sua-da_e6168b6a38ec45d2b4854d2708b5d542_large.png" alt="Iced Milk Coffee">
+                                <h4 class="content-relate-coffee_title">Iced Milk Coffee</h4>
+                                </a>
+                                <span>29.000 VND</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-
         </div>
 
-    </div>
+        <!-- Footer -->
+        <footer class="footer"> 
+            <div class="footer-list">
+                <div class="footer-intro">
+                    <h3>Introduction</h3>
+                    <li>
+                        <a href="#" title="About Us ">About Us </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Products">Products </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Promotions "> Promotions </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Coffee story "> Coffee story </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Store "> Store </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Recruitment"> Recruitment </a>
+                    </li>
+                    </div>
+                    <div class="footer-items">
+                    <h3>Terms</h3>
+                    <li>
+                        <a href="#" title="Terms of Use">Terms of Use </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Information security policy ">Information security policy </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Instructions for issuing VAT invoices ">Instructions for issuing VAT invoices </a>
+                    </li>
+                    </div>
+                    <div class="footer-info">
+                    <div class="footer-info-col">
+                        <i class="fa-solid fa-phone"></i>
+                        <h3>Order: 1800.6936</h3>
+                    </div>
+                    <div class="footer-info-col">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h3>Contact</h3>
+                    </div>
+                    <p>Floors 3-4 Hub Building
+                        195/10E Dien Bien Phu, Ward 15,
+                        Binh Thanh District, Ho Chi Minh City
+                    </p>
+                    </div>
+                    <div class="footer-social_link">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <li>Vietnam Tea Coffee Service Trading Joint Stock Company</li>
+                    <li>Business code: 0312867172 issued by the Department of Planning and Investment of the city. HCM issued on July 23, 2014. Representative: NGO NGUYEN KHA</li>
+                    <li>Address: 86-88 Cao Thang, Ward 04, District 3, Ho Chi Minh City Phone: (028) 7107 8079 Email: hi@thecoffeehouse.vn</li>
+                    <li>© 2014-2022 Vietnam Tea Coffee Service Trading Joint Stock Company, all rights reserved</li>
+                </div>
+        </footer>
 
 
-    </div>
-
-    <!-- Footer -->
-    <footer class="footer">
-    <div class="footer-list">
-        <div class="footer-intro">
-        <h3>Giới thiệu</h3>
-        <li>Về Chúng Tôi</li>
-        <li>Sản phẩm</li>
-        <li>Khuyến mãi</li>
-        <li>Chuyện cà phê</li>
-        <li>Cửa Hàng</li>
-        <li>Tuyển dụng</li>
-        </div>
-        <div class="footer-tems">
-        <h3>Điều khoản</h3>
-        <li>Điều khoản sử dụng</li>
-        <li>Chính sách bảo mật thông tin</li>
-        <li>Hướng dẫn xuất hóa đơn GTGT</li>
-        </div>
-        <div class="footer-info">
-        <div class="footer-info-col">
-            <i class="fa-solid fa-phone"></i>
-            <h3>Đặt hàng: 1800.6936</h3>
-        </div>
-        <div class="footer-info-col">
-            <i class="fa-solid fa-location-dot"></i>
-            <h3>Liên hệ</h3>
-        </div>
-        <span>Tầng 3-4 Hub Building
-            195/10E Điện Biên Phủ, P.15,
-            Q.Bình Thạnh, TP.Hồ Chí Minh
-        </span>
-        </div>
-        <div class="footer-social_link">
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-instagram"></i>
-        </div>
-    </div>
-    <div class="footer-col">
-        <li>Công ty cổ phần thương mại dịch vụ Trà Cà Phê VN</li>
-        <li>Mã số DN: 0312867172 do sở kế hoạch và đầu tư tp. HCM cấp ngày 23/07/2014. Người đại diện: NGÔ NGUYÊN KHA</li>
-        <li>Địa chỉ: 86-88 Cao Thắng, phường 04, quận 3, tp Hồ Chí Minh   Điện thoại: (028) 7107 8079   Email: hi@thecoffeehouse.vn</li>
-        <li>© 2014-2022 Công ty cổ phần thương mại dịch vụ Trà Cà Phê VN mọi quyền bảo lưu</li>
-    </div>
-    </footer>
-
-    <script src="Js/coffe.js"></script>
-    <script src="Js/profile.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+        <script src="Js/coffee.js"></script>
+        <script src="Js/profile.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
 </html>

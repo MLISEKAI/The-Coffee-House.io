@@ -8,23 +8,35 @@ const headerImages = [
 
 let currentHeaderImageIndex = 0;
 
+// Hàm này cập nhật ảnh hiển thị trên slider
 function updateSlider() {
     const headerImage = document.getElementById("headerImage");
     headerImage.src = headerImages[currentHeaderImageIndex];
 }
 
-function changeSlide(step) {
+// Hàm này thay đổi ảnh hiển thị trên slider dựa vào bước nhảy được truyền vào
+function changeSlides(step) {
     currentHeaderImageIndex += step;
     if (currentHeaderImageIndex >= headerImages.length) {
-        currentHeaderImageIndex = 0; // Quay lại ảnh đầu tiên
+        currentHeaderImageIndex = 0; // Nếu vượt quá số lượng ảnh, quay lại ảnh đầu tiên
     } else if (currentHeaderImageIndex < 0) {
-        currentHeaderImageIndex = headerImages.length - 1; // Chuyển đến ảnh cuối cùng
+        currentHeaderImageIndex = headerImages.length - 1; // Nếu nhỏ hơn 0, chuyển đến ảnh cuối cùng
     }
-    updateSlider(); // Đây là tên hàm đúng để cập nhật slider
+    updateSlider(); // Gọi hàm cập nhật slider
 };
 
+// Hàm này tự động chuyển đổi ảnh trên slider mỗi 5 giây
+function autoChangeSlides() {
+    setInterval(function() {
+        changeSlides(1); // Chuyển đến ảnh tiếp theo
+    }, 5000); // 5 giây
+}
+
+autoChangeSlides(); // Bắt đầu tự động chuyển đổi ảnh
+
+// Hàm này được gọi khi trang web được tải, để hiển thị ảnh đầu tiên trên slider
 window.onload = function() {
-    updateSlider(); // Sửa lại để gọi đúng hàm
+    updateSlider();
 };
 //End
 
@@ -54,34 +66,61 @@ const storeImages = [
     ],
 ];
 
-let currentStoreImageIndex = 0;
+// Maintain a separate index for each store
+let currentStoreImageIndices = [0, 0, 0];
 
-function updateStoreImage(index, step = 1) {
+// Hàm này cập nhật ảnh cho mỗi bộ sưu tập cửa hàng dựa vào chỉ số và bước nhảy
+function updateStoreImage(storeIndex, step = 1) {
     const storeImageElements = document.querySelectorAll(".storeImage");
 
-    // Cập nhật chỉ số cho từng bộ sưu tập
-    currentStoreImageIndex = (currentStoreImageIndex + step + storeImages[index].length) % storeImages[index].length;
+    // Update the index for the specific store, ensuring it doesn't exceed the number of images
+    currentStoreImageIndices[storeIndex] = (currentStoreImageIndices[storeIndex] + step + storeImages[storeIndex].length) % storeImages[storeIndex].length;
 
-    // Cập nhật ảnh cho bộ sưu tập cụ thể
-    const storeImage = storeImageElements[index];
-    storeImage.src = storeImages[index][currentStoreImageIndex];
+    // Update the image for the specific store
+    const storeImage = storeImageElements[storeIndex];
+    storeImage.src = storeImages[storeIndex][currentStoreImageIndices[storeIndex]];
 }
 
-// Cập nhật tất cả ảnh tự động (nếu cần)
+
+// Hàm này tự động cập nhật tất cả ảnh cho các bộ sưu tập cửa hàng mỗi 5 giây
 function updateAllStoresAutomatically() {
     storeImages.forEach((_, index) => {
         updateStoreImage(index);
     });
     setTimeout(updateAllStoresAutomatically, 5000); // Đặt thời gian tự động chuyển đổi
 }
-updateAllStoresAutomatically(); // Kích hoạt cập nhật tự động nếu cần
+updateAllStoresAutomatically(); // Kích hoạt cập nhật tự động
 
 
+function changeSlide() {
+    var store1 = document.getElementById("store1");
+    var store2 = document.getElementById("store2");
+    var store3 = document.getElementById("store3");
 
-function changeImage(imageSrc, altText, totalPrice) {
+    // Kiểm tra xem store nào đang được hiển thị và chuyển sang store tiếp theo
+    if (store1.style.display === "flex") {
+        store1.style.display = "none";
+        store2.style.display = "flex";
+        store3.style.display = "none";
+    } else if (store2.style.display === "flex") {
+        store1.style.display = "none";
+        store2.style.display = "none";
+        store3.style.display = "flex";
+    } else {
+        store1.style.display = "flex";
+        store2.style.display = "none";
+        store3.style.display = "none";
+    }
+}
+
+// Hàm này lưu trữ thông tin ảnh được chọn vào localStorage và chuyển hướng người dùng
+function changeImage(imageSrc, altText, totalPrice, describeCoffee) {
     localStorage.setItem('selectedImage', imageSrc);
     localStorage.setItem('selectedAlt', altText);
     localStorage.setItem('totalPrice', totalPrice);
-    localStorage.setItem('coffeeName', altText); // Assuming altText is the coffee name
+    localStorage.setItem('coffeeName', altText); // Giả định altText là tên cà phê
+    localStorage.setItem('describeCoffee', describeCoffee);
     window.location.href = 'coffee.html';
 }
+
+

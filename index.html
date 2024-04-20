@@ -3,266 +3,290 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>The Coffe House</title>
+    <title>The Coffee House</title>
+    <link rel="stylesheet" href="./Css/base.css">
     <link rel="stylesheet" href="./Css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
-    <div class="main">
+    <div id="main">
       <!-- Header -->
       <div class="header-info">
         <div class="header-info-list">
           <a href="#" class="header-map">
             <i class="fa-solid fa-location-dot"></i>
-            <span> 141 Cửa hàng khắp cả nước </span>
+            <span> 141 Stores Nationwide </span>
           </a>
           <a href="#" class="header-phone">
             <i class="fa-solid fa-phone"></i>
-            <span>Đặt hàng: 1800.6936</span>
+            <span>Order: 1800.6936</span>
           </a>
-          <!-- <button class="surfing">
-            <i class="fa-solid fa-play"></i>
-          </button> -->
         </div>
+
         <div class="profile-container">
           <p></p>
           <div class="profile-container-list">
-            <a href="./login.html" class="logOut">Log Out
+            <a href="./login.html" title="Log out" class="logOut">Log Out
               <i class="fa-solid fa-door-closed"></i>
             </a>
           </div>
         </div>
+        <div id="icon-cart">
+          <a href="./cart.html">
+              <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+      </div>
       </div>
 
       <div class="header-nav">
-        <a href="#" class="header-nav_logo">
+        <a href="#" class="header-nav_logo" title="The Coffee House">
           <img src="font/img/images.png" alt="logo">
         </a>
 
           <ul class="header-nav_list">
-            <li><a href="#">Cà phê</a></li>
-            <li><a href="#">Trà</a></li>
+            <li><a href="./nav_coffee.html"title ="Coffee">Coffee</a></li>
+            <li><a href="#" title ="Tea">Tea</a></li>
             <li class="header-nav_menu">
-              <a href="#">Menu</a>
+              <a href="./menu_all.html" title ="Menu">Menu</a>
               <i class="header-nav_icon fa-solid fa-v"></i>
               <ul class="header-nav_menu-list">
                 <li>
-                  <a href="#">Tất Cả</a>
+                  <a href="./menu_all.html" title ="All">All</a>
                 </li>
                 <li>
-                  <a href="#">Xuân Lên Đi</a>
-                  <a href="#">Xuân Lên Đi</a>
+                  <a href="#" title ="Coffee">Coffee</a>
+                  <a href="#" title ="Highlight Coffee">Highlight Coffee</a>
+                  <a href="#" title ="Vietnamese Coffee">Vietnamese Coffee</a>
+                  <a href="#" title ="Coffee Machine">Coffee Machine</a>
+                  <a href="#" title ="Cold Brew">Cold Brew</a>
                 </li>
                 <li>
-                  <a href="#">Cà Phê</a>
-                  <a href="#">Cà Phê Highlight</a>
-                  <a href="#">Cà Phê Việt Nam</a>
-                  <a href="#">Cà Phê Máy</a>
-                  <a href="#">Cold Brew</a>
+                  <a href="#" title ="Tea">Tea</a>
+                  <a href="#" title ="Fruit Tea">Fruit Tea</a>
+                  <a href="#" title ="Macchiato Milk Tea">Macchiato Milk Tea</a>
                 </li>
                 <li>
-                  <a href="#">Trà</a>
-                  <a href="#">Trà trái cây</a>
-                  <a href="#">Trà sữa Macchiato</a>
+                  <a href="#" title ="Cloud">Cloud</a>
+                  <a href="#" title ="CloudFee">CloudFee</a>
+                  <a href="#" title ="CloudTea Mochi">CloudTea Mochi</a>
                 </li>
                 <li>
-                  <a href="#">Cloud</a>
-                  <a href="#">CloudFee</a>
-                  <a href="#">CloudTea Mochi</a>
+                  <a href="#" title ="Hi-Tea Healthy">Hi-Tea Healthy</a>
+                  <a href="#" title ="Hi-Tea Tea">Hi-Tea Tea</a>
+                  <a href="#" title ="Snow Ice Hi-Tea">Snow Ice Hi-Tea</a>
                 </li>
                 <li>
-                  <a href="#">Hi-Tea Healthy</a>
-                  <a href="#">Hi-Tea Trà</a>
-                  <a href="#">Hi-Tea Đá Tuyết</a>
+                  <a href="#" title ="Green Tea - Chocolate">Green Tea - Chocolate</a>
+                  <a href="#" title ="Northwest Green Tea">Northwest Green Tea<a>
+                  <a href="#" title ="Chocolate">Chocolate</a>
                 </li>
                 <li>
-                  <a href="#">Trà Xanh - Chocolate</a>
-                  <a href="#">Trà Xanh Tây Bắc<a>
-                  <a href="#">Chocolate</a>
+                  <a href="#" title ="Ice Blended Drinks">Iced Blended Drinks</a>
+                  <a href="#" title ="Frosty Crushed Ice">Frosty Crushed Ice</a>
                 </li>
                 <li>
-                  <a href="#">Thức uống đá xay</a>
-                  <a href="#">Đá xay Frosty</a>
+                  <a href="#" title ="Cake & Snack">Cake & Snack</a>
+                  <a href="#" title ="Savory Cakes">Savory Cakes</a>
+                  <a href="#" title ="Cake">Cake</a>
+                  <a href="#" title ="Snack">Snack</a>
+                  <a href="#" title ="Pastry Cake">Pastry Cake</a>
                 </li>
                 <li>
-                  <a href="#">Bánh & Snack</a>
-                  <a href="#">Bánh mặn</a>
-                  <a href="#">Bánh ngọt</a>
-                  <a href="#">Snack</a>
-                  <a href="#">Bánh Pastry</a>
-                </li>
-                <li>
-                  <a href="#">Thưởng Thức Tại Nhà</a>
-                  <a href="#">Cà phê tại nhà</a>
-                  <a href="#">Cà Phê Hạt Rang</a>
-                  <a href="#">Trà tại nhà</a>
-                  <a href="#">Chai Fresh Không Đá</a>
+                  <a href="#" title ="Enjoy At Home">Enjoy At Home</a>
+                  <a href="#" title ="Coffee at home">Coffee at home</a>
+                  <a href="#" title ="Roasted Coffee Beans">Roasted Coffee Beans</a>
+                  <a href="#" title ="Tea at home">Tea at home</a>
+                  <a href="#" title ="Fresh Bottle Without Ice">Fresh Bottle Without Ice</a>
                 </li>
               </ul>
             </li>
             <li class="header-nav_house">
-              <a href="#">Chuyện nhà</a>
+              <a href="#" title ="House stories">House stories</a>
               <i class="header-nav_icon fa-solid fa-v"></i>
               <ul class="header-nav_house-list">
                 <li>
-                  <a href="#">Coffeeholic</a>
-                  <a href="#">#chuyencaphe</a>
-                  <a href="#">#phacaphe</a>
+                  <a href="#" title ="Coffeeholic">Coffeeholic</a>
+                  <a href="#" title ="#chuyencaphe">#chuyencaphe</a>
+                  <a href="#" title ="#phacaphe">#phacaphe</a>
                 </li>
                 <li>
-                  <a href="#">Teaholic</a>
-                  <a href="#">#phatra</a>
-                  <a href="#">#cauchuyenvetra</a>
+                  <a href="#" title ="Teaholic">Teaholic</a>
+                  <a href="#" title ="#phatra">#phatra</a>
+                  <a href="#" title ="#cauchuyenvetra">#cauchuyenvetra</a>
                 </li>
                 <li>
-                  <a href="#">Blog</a>
-                  <a href="#">#inthemood</a>
-                  <a href="#">#Review</a>
-                  <a href="#">#HumanofTCH</a>
+                  <a href="#" title ="Blog">Blog</a>
+                  <a href="#" title ="#inthemood">#inthemood</a>
+                  <a href="#" title ="#Review">#Review</a>
+                  <a href="#" title ="#HumanofTCH">#HumanofTCH</a>
                 </li>
               </ul>
             </li>
-            <li><a href="#">Cảm hứng CloudFee</a></li>
-            <li><a href="#">Cửa hàng</a></li>
-            <li><a href="#">Tuyển dụng</a></li>
+            <li><a href="#" title ="CloudFee Inspiration">CloudFee Inspiration</a></li>
+            <li><a href="#" title ="Store">Store</a></li>
+            <li><a href="#" title ="Recruitment">Recruitment</a></li>
           </ul>
       </div>
 
       <div class="header-img">
         <img src="" alt="Slider Image" id="headerImage">
-        <button class="header-img_left" onclick="changeSlide(-1)">
+        <button class="header-img_left" onclick="changeSlides(-1)">
           <i class="btn-left fa-solid fa-arrow-left"></i>
         </button>
-        <button class="header-img_right" onclick="changeSlide(1)">
+        <button class="header-img_right" onclick="changeSlides(1)">
           <i class="btn-right fa-solid fa-arrow-right"></i>
         </button>
       </div>
 
       <!-- Content -->
-      <div class="content">
-        <div class="content-list_coffee">
+      <div id="content">
+        <div class="content-list_coffee" id="listCoffee">
           <div class="content-img_freeship" title="FREESHIP">
             <img src="./font/img/banner_app_f2a5895397a14c4f9d2eb65f7d998990.jpg" alt="FREESHIP">
           </div>
 
-          <div class="content-coffee" title="CloudFee Hạnh Nhân Nướng">
-            <a href="#" onclick="changeImage('./font/img/1697442235_cloudfee-hanh-nhan-nuong_8282f6c2cf4d49bba2dfbe70cb7dbede_large.jpg', 'CloudFee Hạnh Nhân Nướng', '49.000 đ')">
-                <img src="./font/img/1697442235_cloudfee-hanh-nhan-nuong_8282f6c2cf4d49bba2dfbe70cb7dbede_large.jpg" alt="CloudFee Hạnh Nhân Nướng">
-                <h3 class="content-coffee_title">CloudFee Hạnh Nhân Nướng</h3>
+          <div class="content-coffee" title="CloudFee Toasted Almonds">
+            <a href="#" onclick="changeImage('./font/img/1697442235_cloudfee-hanh-nhan-nuong_8282f6c2cf4d49bba2dfbe70cb7dbede_large.jpg', 'CloudFee Toasted Almonds', '49.000 VND', 'Slightly bitter taste from traditional filter coffee combined with Italian Espresso, mixed with a bit of sweetness from milk cream and cocoa egg foam, accented with fragrant toasted almonds, and a deliciously chewy and crunchy coffee jelly topping. All mixed together in a drink that makes the taste buds (wake up) and is extremely delicious.')">
+                <img src="./font/img/1697442235_cloudfee-hanh-nhan-nuong_8282f6c2cf4d49bba2dfbe70cb7dbede_large.jpg" alt="CloudFee Toasted Almonds">
+                <h3 class="content-coffee_title">CloudFee Toasted Almonds</h3>
             </a>
-            <span>49.000 đ</span>
-        </div>
-
-          <div class="content-coffee" title="The Coffee House Sữa Đá">
-              <a href="#" onclick="changeImage('./font/img/1675355354_bg-tch-sua-da-no_4fbf208885ed464ab4b5e145336d42a2_large.jpg', 'The Coffee House Sữa Đá', '39.000 đ')">
-                  <img src="./font/img/1675355354_bg-tch-sua-da-no_4fbf208885ed464ab4b5e145336d42a2_large.jpg" alt="The Coffee House Sữa Đá">
-                  <h3 class="content-coffee_title">The Coffee House Sữa Đá</h3>
-              </a>
-              <span>39.000 đ</span>
+            <span>49.000 VND</span>
           </div>
 
-          <div class="content-coffee" title="Hi-Tea Vải">
-            <a href="#" onclick="changeImage('./font/img/1669736893_hi-tea-vai_a60e3f09ea424c40a029e5ab446e785f_large.png', 'Hi-Tea Vải', '49.000 đ')">
-                <img src="./font/img/1669736893_hi-tea-vai_a60e3f09ea424c40a029e5ab446e785f_large.png" alt="Hi-Tea Vải">
-                <h3 class="content-coffee_title">Hi-Tea Vải</h3>
+          <div class="content-coffee" title="The Coffee House Iced Milk">
+              <a href="#" onclick="changeImage('./font/img/1675355354_bg-tch-sua-da-no_4fbf208885ed464ab4b5e145336d42a2_large.jpg', 'The Coffee House Iced Milk', '39.000 VND', 'The drink helps wake up instantly to start a new day with excitement. Not as bitter as traditional coffee, The Coffee House Sua Da has an attractive, harmonious flavor. It is the richness of 100% freshly roasted Cau Dat Arabica coffee, subtly transformed with condensed milk and extremely sweet and seductive milk cream. Even more attractive with 100% pure coffee jelly topping to help preserve the delicious taste until the last sip.')">
+                  <img src="./font/img/1675355354_bg-tch-sua-da-no_4fbf208885ed464ab4b5e145336d42a2_large.jpg" alt="The Coffee House Iced Milk">
+                  <h3 class="content-coffee_title">The Coffee House Iced Milk</h3>
+              </a>
+              <span>39.000 VND</span>
+          </div>
+
+          <div class="content-coffee" title="Hi-Tea Fabric">
+            <a href="#" onclick="changeImage('./font/img/1669736893_hi-tea-vai_a60e3f09ea424c40a029e5ab446e785f_large.png', 'Hi-Tea Fabric', '49.000 VND', 'The sweetness of Lychee, mixed with the elegant sourness of Hibiscus flower tea, brings you a standard drink that is both delicious and healthy.')">
+                <img src="./font/img/1669736893_hi-tea-vai_a60e3f09ea424c40a029e5ab446e785f_large.png" alt="Hi-Tea Fabric">
+                <h3 class="content-coffee_title">Hi-Tea Fabric</h3>
             </a>
-            <span>49.000 đ</span>
+            <span>49.000 VND</span>
           </div>
         
-          <div class="content-coffee" title="Cà Phê Sữa Đá">
-              <a href="#" onclick="changeImage('./font/img/1669736835_ca-phe-sua-da_e6168b6a38ec45d2b4854d2708b5d542_large.png', 'Cà Phê Sữa Đá', '29.000 đ')">
-                  <img src="./font/img/1669736835_ca-phe-sua-da_e6168b6a38ec45d2b4854d2708b5d542_large.png" alt="Cà Phê Sữa Đá">
-                  <h3 class="content-coffee_title">Cà Phê Sữa Đá</h3>
+          <div class="content-coffee" title="Iced Milk Coffee">
+            <a href="#" onclick="changeImage('./font/img/1669736835_ca-phe-sua-da_e6168b6a38ec45d2b4854d2708b5d542_large.png', 'Iced Milk Coffee', '29.000 VND', 'Pure Dak Lak coffee is traditionally brewed and combined with condensed milk to create a rich, harmonious flavor between the sweetness on the tongue and the elegant bitterness in the aftertaste.')">
+                <img src="./font/img/1669736835_ca-phe-sua-da_e6168b6a38ec45d2b4854d2708b5d542_large.png" alt="Iced Milk Coffee">
+                <h3 class="content-coffee_title">Iced Milk Coffee</h3>
               </a>
-              <span>29.000 đ</span>
+              <span>29.000 VND</span>
           </div>
         
-          <div class="content-coffee" title="Bánh Mì VN Thịt Nguội">
-              <a href="#" onclick="changeImage('./font/img/1638440015_banh-mi-vietnam_fe8cf0bdfe9247ba87c10a223d5b2158_large.jpg', 'Bánh Mì VN Thịt Nguội', '39.000 đ')">
-                  <img src="./font/img/1638440015_banh-mi-vietnam_fe8cf0bdfe9247ba87c10a223d5b2158_large.jpg" alt="Bánh Mì VN Thịt Nguội">
-                  <h3 class="content-coffee_title">Bánh Mì VN Thịt Nguội</h3>
-              </a>
-              <span>39.000 đ</span>
+          <div class="content-coffee" title="Vietnamese Bread with Cold Meat">
+            <a href="#" onclick="changeImage('./font/img/1638440015_banh-mi-vietnam_fe8cf0bdfe9247ba87c10a223d5b2158_large.jpg', 'Vietnamese Bread with Cold Meat', '39.000 VND', 'Encapsulated in a loaf of Vietnamese bread are layers of patties, layers of ham mixed with butter and fragrant pate, plus pickled vegetables for an energizing breakfast. *The cake will be most delicious and flavorful when accompanied with pate. To ensure the full flavor, we hope for your understanding as we cannot change the quantity of pate.  ')">
+                <img src="./font/img/1638440015_banh-mi-vietnam_fe8cf0bdfe9247ba87c10a223d5b2158_large.jpg" alt="Vietnamese Bread and Ham">
+                <h3 class="content-coffee_title">Vietnamese Bread with Cold Meat</h3>
+            </a>
+              <span>39.000 VND</span>
           </div>
         
-          <div class="content-coffee" title="Mochi Kem Chocolate">
-              <a href="#" onclick="changeImage('./font/img/1655348107_mochi-choco_5a0fad3509e440a99359292b4d6bb0d1_large.jpg', 'Mochi Kem Chocolate', '19.000 đ')">
-                  <img src="./font/img/1655348107_mochi-choco_5a0fad3509e440a99359292b4d6bb0d1_large.jpg" alt="Mochi Kem Chocolate">
-                  <h3 class="content-coffee_title">Mochi Kem Chocolate</h3>
+          <div class="content-coffee" title="Mochi Cream Chocolate">
+              <a href="#" onclick="changeImage('./font/img/1655348107_mochi-choco_5a0fad3509e440a99359292b4d6bb0d1_large.jpg', 'Mochi Cream Chocolate', '19.000 VND', 'Covered by a fragrant Mochi crust, inside is a layer of cold cream and unique chocolate filling. Order a Mochi for a refreshing day. The product must be kept cool and best consumed within 2 hours after receipt.')">
+                  <img src="./font/img/1655348107_mochi-choco_5a0fad3509e440a99359292b4d6bb0d1_large.jpg" alt="Mochi Cream Chocolate">
+                  <h3 class="content-coffee_title">Mochi Cream Chocolate</h3>
               </a>
-              <span>19.000 đ</span>
+              <span>19.000 VND</span>
           </div>
         </div>
 
         <div class="content-review_tea">
           <div class="content-review-img">
-            <img src="font/img/tagline__1__1_378410beecb347f38cf8425ef7459690.png" alt="Trà Xanh Tây Bắc">
+            <img src="font/img/tagline__1__1_378410beecb347f38cf8425ef7459690.png"alt="Northwestern Green Tea">
             <div class="content-review_tea-text">
-                Được trồng trọt và chăm chút kỹ lưỡng, nuôi dưỡng từ thổ nhưỡng phì
-                nhiêu, nguồn nước mát lành, bao bọc bởi mây và sương cùng nền nhiệt độ mát mẻ quanh năm, những búp trà ở Tây Bắc mập
-                mạp và xanh mướt, hội tụ đầy đủ dưỡng chất, sinh khí, và tinh hoa đất trời.Chính khí hậu đặc trưng cùng phương pháp canh tác
-                của đồng bào dân tộc nơi đây đã tạo ra Trà Xanh vị mộc dễ uống, dễ yêu, không thể trộn lẫn với bất kỳ vùng miền nào khác.
+                Cultivated and cared for carefully, nourished from fertile soil
+                abundant, cool water source, surrounded by clouds and dew and cool temperatures all year round, the tea buds in the Northwest are fat.
+                lush and green, full of nutrients, vitality, and the essence of heaven and earth. The unique climate and farming methods
+                of the ethnic people here have created Green Tea with a rustic taste that is easy to drink, easy to love, and cannot be mixed with any other region.
             </div>
-            <button class="content-review_tea-try">Thử ngay</button>
+            <button class="content-review_tea-try">Try now</button>
           </div>
         </div>
 
         <div class="content-store">
-          <div class="content-store-list">
+          <div id="store1" class="content-store-list" style="display: flex;">
             <div class="content-store-text">
               <h1 class="content-store_title">SIGNATURE<br>By The Coffee House</h1>
-              <p class="content-store_description">Nơi cuộc hẹn tròn đầy với Cà phê đặc sản, Món ăn đa bản sắc và Không gian cảm hứng.</p>
-              <button class="content-store_find-more">Tìm hiểu thêm</button>
-              <button class="content-btn_left" onclick="changeSlide(-1)">
-                <i class="fa-solid fa-arrow-left"></i>
+              <p class="content-store_description">A place where appointments are complete with Specialty Coffee, Diverse Dishes and Inspiring Space.</p>
+              <button class="content-store_find-more">
+                <a href="#">Learn more</a>
               </button>
-              <button class="content-btn_right" onclick="changeSlide(1)">
-                <i class="fa-solid fa-arrow-right"></i>
-              </button>
+              <div class="content-change-store">
+                <button class="content-btn_left" onclick="changeSlide(-1)">
+                  <i class="fa-solid fa-arrow-left"></i>
+                </button>
+                <button class="content-btn_right" onclick="changeSlide(1)">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
             </div>
             <div class="content-store-img">
               <img class="storeImage" src="" alt="Store Image">
-              <button class="content-store-img_left" onclick="changeSlide(-1)">
+              <button class="content-store-img_left"  onclick="updateStoreImage(0, -1)">
                 <i class="fa-solid fa-arrow-left"></i>
               </button>
-              <button class="content-store-img_right" onclick="changeSlide(1)">
+              <button class="content-store-img_right"  onclick="updateStoreImage(0, 1)">
                 <i class="fa-solid fa-arrow-right"></i>
               </button>
             </div>
           </div>
 
-          <div class="content-store-list" draggable="true">
+          <div id="store2" class="content-store-list" style="display: flex;">
             <div class="content-store-text">
               <h1 class="content-store_title">The Coffee House<br>Grand View</h1>
-              <p class="content-store_description">Nhà mới Quận 7 toạ lạc tại khu đô thị The Grand View, với những khu phố hiện đại, sầm uất và nhộn nhịp.</p>
-              <button class="content-store_find-more">Tìm hiểu thêm</button>
-              <button class="content-btn_left" onclick="changeSlide(-1)">
-                <i class="fa-solid fa-arrow-left"></i>
+              <p class="content-store_description">New house in District 7 is located in The Grand View urban area, with modern, busy and bustling neighborhoods.</p>
+              <button class="content-store_find-more">
+                <a href="#">Find out more</a>
               </button>
-              <button class="content-btn_right" onclick="changeSlide(1)">
-                <i class="fa-solid fa-arrow-right"></i>
-              </button>
+              <div class="content-change-store">
+                <button class="content-btn_left" onclick="changeSlide(-1)">
+                  <i class="fa-solid fa-arrow-left"></i>
+                </button>
+                <button class="content-btn_right" onclick="changeSlide(1)">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
             </div>
             <div class="content-store-img">
               <img class="storeImage" src="" alt="Store Image">
+              <button class="content-store-img_left"  onclick="updateStoreImage(1, -1)">
+                <i class="fa-solid fa-arrow-left"></i>
+              </button>
+              <button class="content-store-img_right"  onclick="updateStoreImage(1, 1)">
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
             </div>
           </div>
 
-          <div class="content-store-list" draggable="true">
+          <div id="store3" class="content-store-list" style="display: flex;">
             <div class="content-store-text">
               <h1 class="content-store_title">The Coffee House <br>Grace Tower</h1>
-              <p class="content-store_description">Nhà mới Quận 7 toạ lạc tại The Grace Tower, thuộc khu phố nhộn nhịp, sầm uất. Cửa hàng 
-                nổi bật với không gian nhỏ nhắn nhưng lại có nhiều nguồn sáng tự nhiên, mang đến sự hứng khởi, năng động</p>
-              <button class="content-store_find-more">Tìm hiểu thêm</button>
-              <button class="content-btn_left" onclick="changeSlide(-1)">
-                <i class="fa-solid fa-arrow-left"></i>
+              <p class="content-store_description">New house in District 7 is located at The Grace Tower, in a bustling, bustling neighborhood. Shop
+                stands out with its small space but has many natural light sources, bringing excitement and dynamism</p>
+              <button class="content-store_find-more">
+                <a href="#">Find out more</a>
               </button>
-              <button class="content-btn_right" onclick="changeSlide(1)">
-                <i class="fa-solid fa-arrow-right"></i>
-              </button>
+              <div class="content-change-store">
+                <button class="content-btn_left" onclick="changeSlide(-1)">
+                  <i class="fa-solid fa-arrow-left"></i>
+                </button>
+                <button class="content-btn_right" onclick="changeSlide(1)">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
             </div>
             <div class="content-store-img">
               <img class="storeImage" src="" alt="Store Image">
+              <button class="content-store-img_left"  onclick="updateStoreImage(2, -1)">
+                <i class="fa-solid fa-arrow-left"></i>
+              </button>
+              <button class="content-store-img_right"  onclick="updateStoreImage(2, 1)">
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
             </div>
           </div>
         </div>
@@ -271,41 +295,41 @@
           <div class="content-home-container">
             <div class="content-home-title">
               <img src="./font/img/coffee-2_2_92db24958ff14ac4b4249b3256f7a415.png" alt="Coffe">
-              <h2>Chuyện Nhà</h2>
+              <h2>House Stories</h2>
             </div>
             <h3>Coffeeholic</h3>
             <ul class="content-home-list">
               <li>
                 <a href="#">
-                  <img src="./font/img/thecoffeehouse_caphehighlight01_de40c0102a954c50a328f7befcdd82bd_grande.jpg" alt="BẮT GẶP SÀI GÒN XƯA TRONG MÓN UỐNG">
+                  <img src="./font/img/thecoffeehouse_caphehighlight01_de40c0102a954c50a328f7befcdd82bd_grande.jpg" alt="SEE ANCIENT SAIGON IN DRINK">
                 </a>
                 <div class="content-home-list_info">
-                  <span>01/11/2023</span>
-                  <a href="#" title="BẮT GẶP SÀI GÒN XƯA TRONG MÓN UỐNG">BẮT GẶP SÀI GÒN XƯA TRONG MÓN UỐNG</a>
-                  <p>Dẫu qua bao nhiêu lớp sóng thời gian, người ta vẫn có thể tìm lại những dấu ấn thăng trầm của một Sài Gòn xưa cũ. Trên những góc phố,...</p>
+                  <span>November 1, 2023</span>
+                  <a href="#" title="SEEING ANCIENT SAIGON IN DRINK">CATCHING ANCIENT SAIGON IN DRINK</a>
+                  <p>No matter how many layers of time have passed, people can still find the ups and downs of the old Saigon. On street corners,...</p>
                 </div>
               </li>
               <li>
                 <a href="#">
-                  <img src="./font/img/1200x630_0b0081d93ba6479b934e04e71cbfd102_grande.jpg" alt="CHỈ CHỌN CÀ PHÊ MỖI SÁNG NHƯNG CŨNG">
+                  <img src="./font/img/1200x630_0b0081d93ba6479b934e04e71cbfd102_grande.jpg" alt="JUST CHOOSE COFFEE EVERY MORNING BUT ALSO">
                 </a>
                 <div class="content-home-list_info">
-                  <span>30/10/2023</span>
-                  <a href="#" title="CHỈ CHỌN CÀ PHÊ MỖI SÁNG NHƯNG CŨNG">CHỈ CHỌN CÀ PHÊ MỖI SÁNG NHƯNG CŨNG
+                  <span>October 30, 2023</span>
+                  <a href="#" title="JUST CHOOSE COFFEE EVERY MORNING BUT ALSO">JUST CHOOSE COFFEE EVERY MORNING BUT ALSO
                   </a>
-                  <p>Thực chất, bạn không nhất thiết phải làm gì to tát để tạo nên một ngày rực rỡ. Chỉ cần bắt đầu từ những việc nhỏ nhặt nhất, khi bạn...</p>
+                  <p>In fact, you don't necessarily have to do anything big to create a brilliant day. Just start with the smallest things, when you...</p>
                 </div>
               </li>
               <li>
                 <a href="#">
-                  <img src="./font/img/3__1__2b67342f4db64bb082944cf078afd910_grande.jpg" alt="SIGNATURE - BIỂU TƯỢNG VĂN HOÁ CÀ PHÊ CỦA THE COFFEE HOUSE ĐÃ QUAY TRỞ LẠI">
+                  <img src="./font/img/3__1__2b67342f4db64bb082944cf078afd910_grande.jpg" alt="SIGNATURE - THE COFFEE HOUSE CULTURAL ICON IS BACK">
                 </a>
                 <div class="content-home-list_info">
-                  <span>12/02/2023</span>
-                  <a href="#" title="SIGNATURE - BIỂU TƯỢNG VĂN HOÁ CÀ PHÊ CỦA THE COFFEE HOUSE ĐÃ QUAY TRỞ LẠI">
-                    SIGNATURE - BIỂU TƯỢNG VĂN HOÁ CÀ PHÊ CỦA THE COFFEE HOUSE ĐÃ QUAY TRỞ LẠI
+                  <span>February 12, 2023</span>
+                  <a href="#" title="SIGNATURE - THE COFFEE CULTURE ICON OF THE COFFEE HOUSE IS BACK">
+                    SIGNATURE - THE COFFEE CULTURE ICON OF THE COFFEE HOUSE IS BACK
                   </a>
-                  <p>Mới đây, các "tín đồ" cà phê đang bàn tán xôn xao về SIGNATURE - Biểu tượng văn hóa cà phê của The Coffee House đã quay trở lại.Một lời...</p>
+                  <p>Recently, coffee "fans" are talking about SIGNATURE - The coffee culture icon of The Coffee House has returned. A word...</p>
                 </div>
               </li>
             </ul>
@@ -313,35 +337,35 @@
             <ul class="content-home-list">
               <li>
                 <a href="#">
-                  <img src="./font/img/an_banh_uong_nuoc_nhom_03_d499c0cab14746588fff6fe0dee678ad_grande.jpg" alt="TRUNG THU NÀY, SAO BẠN KHÔNG TỰ CHO MÌNH "DỪNG MỘT CHÚT THÔI, THƯỞNG MỘT CHÚT TRÔI"?">
+                  <img src="./font/img/an_banh_uong_nuoc_nhom_03_d499c0cab14746588fff6fe0dee678ad_grande.jpg" alt="THIS MID-AUTUMN, WHY DON'T YOU TELL YOURSELF "STOP A LITTLE, ENJOY A LITTLE LIGHT"?">
                 </a>
                 <div class="content-home-list_info">
-                  <span>19/09/2023</span>
-                  <a href="#" title="TRUNG THU NÀY, SAO BẠN KHÔNG TỰ CHO MÌNH "DỪNG MỘT CHÚT THÔI, THƯỞNG MỘT CHÚT TRÔI?"?">TRUNG THU NÀY, SAO BẠN KHÔNG TỰ CHO MÌNH "DỪNG MỘT CHÚT THÔI, THƯỞNG MỘT CHÚT TRÔI"?</a>
-                  <p>Bạn có từng nghe: “Trung thu thôi mà, có gì đâu mà chơi”, hay “Trung thu càng ngày càng chán”...? Sự bận rộn đến mức “điên rồ” đã khiến chúng...</p>
+                  <span>September 19, 2023</span>
+                  <a href="#" title="THIS MID-AUTUMN, WHY DON'T YOU TELL YOURSELF "STOP A LITTLE, ENJOY A LITTLE TIME?"?"> THIS MID-AUTUMN, WHY DON'T YOU TELL YOURSELF "STOP A LITTLE BIT?" , ENJOY A LITTLE Drift"?</a>
+                  <p>Have you ever heard: "It's just Mid-Autumn Festival, there's nothing to do", or "Mid-Autumn Festival is getting more and more boring"...? The "crazy" busyness has made them...</p>
                 </div>
               </li>
               <li>
                 <a href="#">
-                  <img src="./font/img/cautoankeothom_thecoffeehouse_03_29cd435c9a574e1a867ac36f2c863bb6_grande.jpg" alt="BỘ SƯU TẬP CẦU TOÀN KÈO THƠM: "VÍA" MAY MẮN KHÔNG THỂ BỎ LỠ TẾT NÀY">
+                  <img src="./font/img/cautoankeothom_thecoffeehouse_03_29cd435c9a574e1a867ac36f2c863bb6_grande.jpg" alt="FRAGRANT GLOBAL COLLECTION: LUCKY "STICKS" YOU CAN'T MISS THIS TEST">
                 </a>
                 <div class="content-home-list_info">
-                  <span>16/01/2023</span>
-                  <a href="#" title="BỘ SƯU TẬP CẦU TOÀN KÈO THƠM: "VÍA" MAY MẮN KHÔNG THỂ BỎ LỠ TẾT NÀY">BỘ SƯU TẬP CẦU TOÀN KÈO THƠM: "VÍA" MAY MẮN KHÔNG THỂ BỎ LỠ TẾT NÀY
+                  <span>January 16, 2023</span>
+                  <a href="#" title="FRAGRANT GLOBAL COLLECTION: LUCKY "VEA" CAN'T MISS THIS TET">FRAGRANT GLOBAL COLLECTION: LUCKY "VEA" CAN'T MISS THIS TET
                   </a>
-                  <p>Tết nay vẫn giống Tết xưa, không hề mai một nét văn hoá truyền thống mà còn thêm vào những hoạt động “xin vía” hiện đại, trẻ trung. Ví như...</p>
+                  <p>This Tet is still the same as the old Tet, without losing traditional culture but also adding modern and youthful "asking for help" activities. For example...</p>
                 </div>
               </li>
               <li>
                 <a href="#">
-                  <img src="./font/img/dscf0216_2890bcca44ae49aaaf843d5fa3db2fc6_grande.jpg" alt="“KHUẤY ĐỂ THẤY TRĂNG" - KHUẤY LÊN NIỀM HẠNH PHÚC: TRẢI NGHIỆM KHÔNG THỂ BỎ LỠ MÙA TRUNG THU NÀY">
+                  <img src="./font/img/dscf0216_2890bcca44ae49aaaf843d5fa3db2fc6_grande.jpg" alt="“STRY TO SEE THE MOON" - STIR UP HAPPINESS: AN EXPERIENCE YOU CAN'T MISS THIS MID-AUTUMN SEASON">
                 </a>
                 <div class="content-home-list_info">
-                  <span>16/08/2022</span>
-                  <a href="#" title="“KHUẤY ĐỂ THẤY TRĂNG" - KHUẤY LÊN NIỀM HẠNH PHÚC: TRẢI NGHIỆM KHÔNG THỂ BỎ LỠ MÙA TRUNG THU NÀY">
-                    “KHUẤY ĐỂ THẤY TRĂNG" - KHUẤY LÊN NIỀM HẠNH PHÚC: TRẢI NGHIỆM KHÔNG THỂ BỎ LỠ MÙA TRUNG THU NÀY
+                  <span>August 16, 2022</span>
+                  <a href="#" title="“STRY TO SEE THE MOON" - STIR UP HAPPINESS: AN EXPERIENCE YOU CAN'T MISS THIS MID-AUTUMN SEASON">
+                    “STRY TO SEE THE MOON" - STIR UP HAPPINESS: AN EXPERIENCE YOU CAN'T MISS THIS MID-AUTUMN SEASON
                   </a>
-                  <p>Năm 2022 là năm đề cao sức khỏe tinh thần nên giới trẻ muốn tận hưởng một Trung thu với nhiều trải nghiệm mới mẻ, rôm rả cùng bạn bè...</p>
+                  <p>2022 is a year that promotes mental health, so young people want to enjoy a Mid-Autumn Festival with many new and exciting experiences with friends...</p>
                 </div>
               </li>
             </ul>
@@ -349,34 +373,34 @@
             <ul class="content-home-list">
               <li>
                 <a href="#">
-                  <img src="./font/img/zalo_01c6f0bfb0854951a16a92b52457ca56_grande.jpg" alt="“XUÂN LÊN ĐI!”: LỜI CHÚC Ý NGHĨA CHO NĂM THÌN ĐIỀU CHI CŨNG NHƯ Ý">
+                  <img src="./font/img/zalo_01c6f0bfb0854951a16a92b52457ca56_grande.jpg" alt="“SPRING IS SPRING UP!”: MEANINGFUL WISHES FOR THE YEAR OF THE YEAR, EVERYTHING IS AS WISH">
                 </a>
                 <div class="content-home-list_info">
-                  <span>23/02/2024</span>
-                  <a href="#" title="“XUÂN LÊN ĐI!”: LỜI CHÚC Ý NGHĨA CHO NĂM THÌN ĐIỀU CHI CŨNG NHƯ Ý">“XUÂN LÊN ĐI!”: LỜI CHÚC Ý NGHĨA CHO NĂM THÌN ĐIỀU CHI CŨNG NHƯ Ý</a>
-                  <p>Mùa xuân đã rộn ràng khắp nơi, mang theo nguồn sống dào dạt cùng mọi ước nguyện may mắn. Bạn cầu mong gì cho mình và người thân trong những...</p>
+                  <span>February 23, 2024</span>
+                  <a href="#" title="“SPRING IS UP!”: MEANINGFUL WISHES FOR THE YEAR OF THE DRAGON, EVERYTHING IS AS WISH">“SPRING IS UP!”: MEANINGFUL WISHES FOR THE YEAR OF THE DRAGON, EVERYTHING IS AS WISH </a>
+                  <p>Spring is bustling everywhere, bringing abundant life and all wishes of luck. What do you wish for yourself and your loved ones during these...</p>
                 </div>
               </li>
               <li>
                 <a href="#">
-                  <img src="./font/img/thecoffeehouse_timesquare_02_b87f7576b02d4d82ba5b7ed4e40b6b00_grande.png" alt="LY CÀ PHÊ SỮA ĐÁ VIỆT NAM XUẤT HIỆN Ở QUẢNG TRƯỜNG THỜI ĐẠI NEW YORK">
+                  <img src="./font/img/thecoffeehouse_timesquare_02_b87f7576b02d4d82ba5b7ed4e40b6b00_grande.png" alt="VIETNAMESE Iced MILK COFFEE CUP APPEARS IN NEW YORK TIMES SQUARE">
                 </a>
                 <div class="content-home-list_info">
-                  <span>21/11/2023</span>
-                  <a href="#" title="LY CÀ PHÊ SỮA ĐÁ VIỆT NAM XUẤT HIỆN Ở QUẢNG TRƯỜNG THỜI ĐẠI NEW YORK">LY CÀ PHÊ SỮA ĐÁ VIỆT NAM XUẤT HIỆN Ở QUẢNG TRƯỜNG THỜI ĐẠI NEW YORK
+                  <span>November 21, 2023</span>
+                  <a href="#" title="VIETNAMESE ICED MILK COFFEE CUP APPEARS IN NEW YORK TIMES SQUARE">VIETNAMESE ICED MILK COFFEE CUP APPEARS IN NEW YORK TIMES SQUARE
                   </a>
-                  <p>Ấn tượng và tự hào, hình ảnh Việt Nam tiếp tục được lên sóng tại Quảng trường Thời Đại (New York) với ly cà phê sữa đá quen thuộc, đi...</p>
+                  <p>Impressed and proud, the image of Vietnam continues to be broadcast in Times Square (New York) with a familiar cup of iced milk coffee, going...</p>
                 </div>
               </li>
               <li>
                 <a href="#">
-                  <img src="./font/img/thecoffeehouse_traxanhtaybac_1_d8c2ac635c5941a19c0065339727e41a_grande.jpg" alt="NGƯỢC LÊN TÂY BẮC GÓI VỊ MỘC VỀ XUÔI">
+                  <img src="./font/img/thecoffeehouse_traxanhtaybac_1_d8c2ac635c5941a19c0065339727e41a_grande.jpg" alt="UPWARDS NORTHWEST PACKAGE OF THE MOC DOWNWARD">
                 </a>
                 <div class="content-home-list_info">
-                  <span>16/08/2023</span>
-                  <a href="#" title="NGƯỢC LÊN TÂY BẮC GÓI VỊ MỘC VỀ XUÔI">NGƯỢC LÊN TÂY BẮC GÓI VỊ MỘC VỀ XUÔI
+                  <span>August 16, 2023</span>
+                  <a href="#" title="BACK UP THE NORTHWEST PACKAGE VI MOC DOWN">BACK UP THE NORTHWEST PACKAGE VI MOC DOWN
                   </a>
-                  <p>Những dải ruộng bậc thang, các cô gái Thái với điệu múa xòe hoa, muôn cung đường ngợp mùa hoa… đó là rẻo cao Tây Bắc luôn làm say lòng...</p>
+                  <p>Ranges of terraced fields, Thai girls dancing with flowers, countless roads filled with flowers... these are the Northwest highlands that always captivate...</p>
                 </div>
               </li>
             </ul>
@@ -384,49 +408,68 @@
         </div>
       </div>
     </div>
+
     <!-- Footer -->
     <footer class="footer"> 
       <div class="footer-list">
-        <div class="footer-intro">
-          <h3>Giới thiệu</h3>
-          <li>Về Chúng Tôi</li>
-          <li>Sản phẩm</li>
-          <li>Khuyến mãi</li>
-          <li>Chuyện cà phê</li>
-          <li>Cửa Hàng</li>
-          <li>Tuyển dụng</li>
+          <div class="footer-intro">
+            <h3>Introduction</h3>
+            <li>
+                <a href="#" title="About Us ">About Us </a>
+            </li>
+            <li>
+                <a href="#" title="Products">Products </a>
+            </li>
+            <li>
+                <a href="#" title="Promotions "> Promotions </a>
+            </li>
+            <li>
+                <a href="#" title="Coffee story "> Coffee story </a>
+            </li>
+            <li>
+                <a href="#" title="Store "> Store </a>
+            </li>
+            <li>
+                <a href="#" title="Recruitment"> Recruitment </a>
+            </li>
+            </div>
+            <div class="footer-items">
+            <h3>Terms</h3>
+            <li>
+                <a href="#" title="Terms of Use">Terms of Use </a>
+            </li>
+            <li>
+                <a href="#" title="Information security policy ">Information security policy </a>
+            </li>
+            <li>
+                <a href="#" title="Instructions for issuing VAT invoices ">Instructions for issuing VAT invoices </a>
+            </li>
+            </div>
+            <div class="footer-info">
+            <div class="footer-info-col">
+                <i class="fa-solid fa-phone"></i>
+                <h3>Order: 1800.6936</h3>
+            </div>
+            <div class="footer-info-col">
+                <i class="fa-solid fa-location-dot"></i>
+                <h3>Contact</h3>
+            </div>
+            <p>Floors 3-4 Hub Building
+                195/10E Dien Bien Phu, Ward 15,
+                Binh Thanh District, Ho Chi Minh City
+            </p>
+            </div>
+            <div class="footer-social_link">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            </div>
         </div>
-        <div class="footer-tems">
-          <h3>Điều khoản</h3>
-          <li>Điều khoản sử dụng</li>
-          <li>Chính sách bảo mật thông tin</li>
-          <li>Hướng dẫn xuất hóa đơn GTGT</li>
+        <div class="footer-col">
+            <li>Vietnam Tea Coffee Service Trading Joint Stock Company</li>
+            <li>Business code: 0312867172 issued by the Department of Planning and Investment of the city. HCM issued on July 23, 2014. Representative: NGO NGUYEN KHA</li>
+            <li>Address: 86-88 Cao Thang, Ward 04, District 3, Ho Chi Minh City Phone: (028) 7107 8079 Email: hi@thecoffeehouse.vn</li>
+            <li>© 2014-2022 Vietnam Tea Coffee Service Trading Joint Stock Company, all rights reserved</li>
         </div>
-        <div class="footer-info">
-          <div class="footer-info-col">
-            <i class="fa-solid fa-phone"></i>
-            <h3>Đặt hàng: 1800.6936</h3>
-          </div>
-          <div class="footer-info-col">
-            <i class="fa-solid fa-location-dot"></i>
-            <h3>Liên hệ</h3>
-          </div>
-          <p>Tầng 3-4 Hub Building
-            195/10E Điện Biên Phủ, P.15,
-            Q.Bình Thạnh, TP.Hồ Chí Minh
-          </p>
-        </div>
-        <div class="footer-social_link">
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-instagram"></i>
-        </div>
-      </div>
-      <div class="footer-col">
-        <li>Công ty cổ phần thương mại dịch vụ Trà Cà Phê VN</li>
-        <li>Mã số DN: 0312867172 do sở kế hoạch và đầu tư tp. HCM cấp ngày 23/07/2014. Người đại diện: NGÔ NGUYÊN KHA</li>
-        <li>Địa chỉ: 86-88 Cao Thắng, phường 04, quận 3, tp Hồ Chí Minh   Điện thoại: (028) 7107 8079   Email: hi@thecoffeehouse.vn</li>
-        <li>© 2014-2022 Công ty cổ phần thương mại dịch vụ Trà Cà Phê VN mọi quyền bảo lưu</li>
-      </div>
     </footer>
 
     <script src="Js/scrip.js"></script>
@@ -434,3 +477,4 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
+

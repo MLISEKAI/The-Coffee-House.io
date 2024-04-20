@@ -1,0 +1,68 @@
+
+.content-coffee-home_title:hover{
+    animation: hover 0.3s both ;
+}
+
+@keyframes hover {
+    from{
+        color: var(--black-color);
+    }
+    to{
+        color: var(--primary-color);
+    }
+}
+
+/* Content */
+#content {
+    margin-left:auto ;
+    margin-right:auto ;
+    padding-top: 40px;
+}
+
+/* List coffee */
+.content-coffee-home_list h2 {
+    font-size: 2.4rem;
+    margin-bottom: 30px;
+    width: 100% ;
+}
+
+.content-coffee-home_list{
+    padding: 0 10px;
+    display: flex;
+    width: 1200px;
+    flex-wrap: wrap;
+    margin-left:auto ;
+    margin-right:auto ;
+}
+
+.content-coffee-home {
+    margin-right: 30px;
+    margin-bottom: 50px;
+    width: 270px;
+}
+
+.content-coffee-home img {
+    height: 270px;
+    border-radius: 15px;
+    box-shadow: 3px 2px 7px 7px rgba(1, 12, 15, 0.1) ;
+
+}
+
+.content-coffee-home a{
+    text-decoration: none;
+    color: #000;
+}
+.content-coffee-home_title {
+    font-size: 1.6rem;
+    display: block;
+    padding-top: 15px;
+    margin-bottom: 10px;
+    opacity: 0.8;
+    width: 100%;
+}
+
+.content-coffee-home span {
+    font-size: 1.4rem;
+    opacity: 0.6;
+    display: block;
+}
